@@ -1,0 +1,42 @@
+@import "compass/css3";
+
+#red, #green, #blue {
+  float: left;
+  clear: left;
+  width: 100%;
+  margin: 1rem 0;
+}
+
+
+
+#red .ui-slider-range {
+  background: #ef2929;
+}
+
+#green .ui-slider-range {
+  background: #8ae234;
+}
+
+#blue .ui-slider-range {
+  background: #729fcf;
+}
+
+
+.ui-slider-handle{
+  width:2rem !important;
+  height:2rem !important;
+  border-radius: 50%;
+  margin-top: -0.2rem;
+}
+
+.ui-slider-range {
+  border-radius: 1rem;
+}
+
+.colors > div {
+  background: rgba(black,0.5);
+  border: none;
+  border-radius: 1rem;
+  height: 1rem;
+  width: 100%;
+}
